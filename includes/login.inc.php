@@ -10,7 +10,7 @@ if (isset($_POST["login"])) {
     require_once 'functions.inc.php';
 
     if (emptyInputLogin($username, $password) !== false) {
-      header("Location: ../login.php?error=emptyinput");
+      header("Location: ../index.php?error=emptyinput");
       exit();
     }
 
@@ -18,6 +18,6 @@ if (isset($_POST["login"])) {
 
 }
 else {
-  header("Location: ../login.php");
+  header("Location: ../index.php");
   exit();
 }
