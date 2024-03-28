@@ -1,9 +1,18 @@
-<html>
-<head>
-    <title>Login System</title>
-</head>
-<body>
-    <h1>This is simple login system</h1>
-    <h2>Hello </h2>
-</body>
-</html>
+<?php
+    include_once "header.php";
+?>
+
+<div>
+    
+<ul>
+    <li><a href="signup.php"> Sign Up</a></li>
+    <li><a href="login.php">Login </a></li>
+</ul>
+
+
+
+</div>
+
+<?php
+    include_once "footer.php";
+?>
